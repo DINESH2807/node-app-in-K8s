@@ -1,0 +1,231 @@
+sudo docker run -p 8080:8080 --name c1 app1
+[EPSAGON] patching module: aws-sdk
+[EPSAGON] found module copies: 0
+[EPSAGON] done patching module: aws-sdk
+[EPSAGON] patching module: aws-sdk
+[EPSAGON] found module copies: 0
+[EPSAGON] done patching module: aws-sdk
+[EPSAGON] patching module: aws-sdk
+[EPSAGON] found module copies: 0
+[EPSAGON] done patching module: aws-sdk
+[EPSAGON] patching module: fetch-h2/dist/lib/context-http1
+[EPSAGON] found module copies: 0
+[EPSAGON] done patching module: fetch-h2/dist/lib/context-http1
+[EPSAGON] patching module: simple-oauth2/lib/client.js
+[EPSAGON] found module copies: 0
+[EPSAGON] done patching module: simple-oauth2/lib/client.js
+[EPSAGON] patching module: simple-oauth2/lib/client/client.js
+[EPSAGON] found module copies: 0
+[EPSAGON] done patching module: simple-oauth2/lib/client/client.js
+[EPSAGON] Patching http2 module
+[EPSAGON] patching module: pg
+[EPSAGON] found module copies: 0
+[EPSAGON] done patching module: pg
+[EPSAGON] patching module: pg-pool
+[EPSAGON] found module copies: 0
+[EPSAGON] done patching module: pg-pool
+[EPSAGON] patching module: mysql2
+[EPSAGON] found module copies: 0
+[EPSAGON] done patching module: mysql2
+[EPSAGON] patching module: mysql2
+[EPSAGON] found module copies: 0
+[EPSAGON] done patching module: mysql2
+[EPSAGON] patching module: mysql/lib/Connection.js
+[EPSAGON] found module copies: 0
+[EPSAGON] done patching module: mysql/lib/Connection.js
+[EPSAGON] patching module: redis
+[EPSAGON] found module copies: 0
+[EPSAGON] done patching module: redis
+[EPSAGON] patching module: ioredis
+[EPSAGON] found module copies: 0
+[EPSAGON] done patching module: ioredis
+[EPSAGON] patching module: dy-ioredis/lib/redis.js
+[EPSAGON] found module copies: 0
+[EPSAGON] done patching module: dy-ioredis/lib/redis.js
+[EPSAGON] Epsagon mongodb - starting
+[EPSAGON] Epsagon mongodb - found 0 modules
+[EPSAGON] Epsagon mongodb - done
+[EPSAGON] patching module: amazon-dax-client
+[EPSAGON] found module copies: 0
+[EPSAGON] done patching module: amazon-dax-client
+[EPSAGON] patching module: amazon-dax-client
+[EPSAGON] found module copies: 0
+[EPSAGON] done patching module: amazon-dax-client
+[EPSAGON] patching module: openwhisk/lib/actions.js
+[EPSAGON] found module copies: 0
+[EPSAGON] done patching module: openwhisk/lib/actions.js
+[EPSAGON] patching module: @google-cloud/common/
+[EPSAGON] found module copies: 0
+[EPSAGON] done patching module: @google-cloud/common/
+[EPSAGON] patching module: @google-cloud/pubsub/
+[EPSAGON] found module copies: 0
+[EPSAGON] done patching module: @google-cloud/pubsub/
+[EPSAGON] patching module: @google-cloud/pubsub/
+[EPSAGON] found module copies: 0
+[EPSAGON] done patching module: @google-cloud/pubsub/
+[EPSAGON] patching module: nats
+[EPSAGON] found module copies: 0
+[EPSAGON] done patching module: nats
+[EPSAGON] patching module: mqtt
+[EPSAGON] found module copies: 0
+[EPSAGON] done patching module: mqtt
+[EPSAGON] patching module: kafkajs
+[EPSAGON] found module copies: 0
+[EPSAGON] done patching module: kafkajs
+[EPSAGON] patching module: kafkajs/src/cluster/index.js
+[EPSAGON] found module copies: 0
+[EPSAGON] done patching module: kafkajs/src/cluster/index.js
+[EPSAGON] patching module: kafka-node
+[EPSAGON] found module copies: 0
+[EPSAGON] done patching module: kafka-node
+[EPSAGON] patching module: bunyan
+[EPSAGON] found module copies: 0
+[EPSAGON] done patching module: bunyan
+[EPSAGON] patching module: pino/lib/tools
+[EPSAGON] found module copies: 0
+[EPSAGON] done patching module: pino/lib/tools
+[EPSAGON] patching module: @azure/storage-blob
+[EPSAGON] found module copies: 0
+[EPSAGON] done patching module: @azure/storage-blob
+[EPSAGON] patching module: @azure/storage-blob
+[EPSAGON] found module copies: 0
+[EPSAGON] done patching module: @azure/storage-blob
+[EPSAGON] patching module: @azure/cosmos
+[EPSAGON] found module copies: 0
+[EPSAGON] done patching module: @azure/cosmos
+[EPSAGON] hooking winston-cloudwatch
+[EPSAGON] hooked winston-cloudwatch
+[EPSAGON] patching module: winston/lib/winston/logger
+[EPSAGON] found module copies: 0
+[EPSAGON] done patching module: winston/lib/winston/logger
+[EPSAGON] patching module: amqplib/lib/channel.js
+[EPSAGON] found module copies: 0
+[EPSAGON] done patching module: amqplib/lib/channel.js
+[EPSAGON] patching module: amqp/lib/exchange.js
+[EPSAGON] found module copies: 0
+[EPSAGON] done patching module: amqp/lib/exchange.js
+[EPSAGON] patching module: ldapjs
+[EPSAGON] found module copies: 0
+[EPSAGON] done patching module: ldapjs
+[EPSAGON] patching module: cassandra-driver/lib/client
+[EPSAGON] found module copies: 0
+[EPSAGON] done patching module: cassandra-driver/lib/client
+[EPSAGON] patching module: express
+[EPSAGON] Loaded module express /usr/src/app/node_modules
+[EPSAGON] found module copies: 1
+[EPSAGON] [express] - wrapping express
+[EPSAGON] done patching module: express
+[EPSAGON] patching module: express
+[EPSAGON] Loaded module express /usr/src/app/node_modules
+[EPSAGON] found module copies: 1
+[EPSAGON] done patching module: express
+[EPSAGON] patching module: express
+[EPSAGON] Loaded module express /usr/src/app/node_modules
+[EPSAGON] found module copies: 1
+[EPSAGON] done patching module: express
+[EPSAGON] patching module: @hapi/hapi
+[EPSAGON] found module copies: 0
+[EPSAGON] done patching module: @hapi/hapi
+[EPSAGON] patching module: hapi
+[EPSAGON] found module copies: 0
+[EPSAGON] done patching module: hapi
+[EPSAGON] patching module: hapi
+[EPSAGON] found module copies: 0
+[EPSAGON] done patching module: hapi
+[EPSAGON] patching module: koa/lib/application.js
+[EPSAGON] found module copies: 0
+[EPSAGON] done patching module: koa/lib/application.js
+[EPSAGON] patching module: @google-cloud/pubsub/build/src/subscription
+[EPSAGON] found module copies: 0
+[EPSAGON] done patching module: @google-cloud/pubsub/build/src/subscription
+[EPSAGON] patching module: nats
+[EPSAGON] found module copies: 0
+[EPSAGON] done patching module: nats
+[EPSAGON] patching module: kafkajs
+[EPSAGON] found module copies: 0
+[EPSAGON] done patching module: kafkajs
+[EPSAGON] patching module: kafka-node
+[EPSAGON] found module copies: 0
+[EPSAGON] done patching module: kafka-node
+[EPSAGON] patching module: sqs-consumer
+[EPSAGON] found module copies: 0
+[EPSAGON] done patching module: sqs-consumer
+[EPSAGON] patching module: amqplib/lib/callback_model.js
+[EPSAGON] found module copies: 0
+[EPSAGON] done patching module: amqplib/lib/callback_model.js
+[EPSAGON] patching module: amqplib/lib/channel_model.js
+[EPSAGON] found module copies: 0
+[EPSAGON] done patching module: amqplib/lib/channel_model.js
+[EPSAGON] patching module: amqp/lib/queue.js
+[EPSAGON] found module copies: 0
+[EPSAGON] done patching module: amqp/lib/queue.js
+[EPSAGON] patching module: @tenna-llc/bunnybus/lib/index.js
+[EPSAGON] found module copies: 0
+[EPSAGON] done patching module: @tenna-llc/bunnybus/lib/index.js
+[EPSAGON] patching module: superagent
+[EPSAGON] found module copies: 0
+[EPSAGON] done patching module: superagent
+[EPSAGON] patching module: superagent
+[EPSAGON] found module copies: 0
+[EPSAGON] done patching module: superagent
+[EPSAGON] patching module: superagent
+[EPSAGON] found module copies: 0
+[EPSAGON] done patching module: superagent
+[EPSAGON] patching module: superagent
+[EPSAGON] found module copies: 0
+[EPSAGON] done patching module: superagent
+[EPSAGON] patching module: superagent
+[EPSAGON] found module copies: 0
+[EPSAGON] done patching module: superagent
+[EPSAGON] patching module: @tenna-llc/superagent-wrapper
+[EPSAGON] found module copies: 0
+[EPSAGON] done patching module: @tenna-llc/superagent-wrapper
+[EPSAGON] patching module: redis
+[EPSAGON] found module copies: 0
+[EPSAGON] done patching module: redis
+[EPSAGON] patching module: ws
+[EPSAGON] found module copies: 0
+[EPSAGON] done patching module: ws
+[EPSAGON] patching module: restify/lib/server
+[EPSAGON] found module copies: 0
+[EPSAGON] done patching module: restify/lib/server
+[EPSAGON] patching module: restify/lib/server
+[EPSAGON] found module copies: 0
+[EPSAGON] done patching module: restify/lib/server
+[EPSAGON] patching module: restify/lib/server
+[EPSAGON] found module copies: 0
+[EPSAGON] done patching module: restify/lib/server
+[EPSAGON] patching module: restify/lib/server
+[EPSAGON] found module copies: 0
+[EPSAGON] done patching module: restify/lib/server
+[EPSAGON] patching module: restify/lib/server
+[EPSAGON] found module copies: 0
+[EPSAGON] done patching module: restify/lib/server
+[EPSAGON] patching module: restify/lib/server
+[EPSAGON] found module copies: 0
+[EPSAGON] done patching module: restify/lib/server
+[EPSAGON] patching module: restify/lib/server
+[EPSAGON] found module copies: 0
+[EPSAGON] done patching module: restify/lib/server
+[EPSAGON] patching module: mysql2
+[EPSAGON] found module copies: 0
+[EPSAGON] done patching module: mysql2
+[EPSAGON] patching module: mysql2
+[EPSAGON] found module copies: 0
+[EPSAGON] done patching module: mysql2
+[EPSAGON] patching module: mysql/lib/Connection.js
+[EPSAGON] found module copies: 0
+[EPSAGON] done patching module: mysql/lib/Connection.js
+[EPSAGON] patching module: mysql/lib/Pool.js
+[EPSAGON] found module copies: 0
+[EPSAGON] done patching module: mysql/lib/Pool.js
+[EPSAGON] [express] - express app created
+[EPSAGON] [express] - called the original function
+listening for request on port 8080
+[EPSAGON] [express] - starting express middleware
+[EPSAGON] [express] - created runner
+[EPSAGON] [express] - creating response promise
+[EPSAGON] [express] - added runner
+[EPSAGON] [express] - general finally
+[EPSAGON] [express] - middleware executed
+request made
